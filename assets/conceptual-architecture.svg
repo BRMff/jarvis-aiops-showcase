@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">JARVIS / AIOps — Conceptual Engineering Showcase</title>
+<desc id="desc">Public sanitized diagram: JARVIS interface research, local AI and agent experiments, AIOps observability research, and separately governed security and human approval. All concepts, no live system details.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#091827"/><stop offset="0.56" stop-color="#0c1426"/><stop offset="1" stop-color="#0b1b2c"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14263b"/><stop offset="1" stop-color="#101e31"/></linearGradient>
+  <linearGradient id="blueLine" x1="0" x2="1"><stop offset="0" stop-color="#4dd6e9"/><stop offset="1" stop-color="#6096ff"/></linearGradient>
+  <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#9bb9d1" stroke-opacity=".045" stroke-width="1"/></pattern>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="17" flood-color="#000" flood-opacity=".24"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<circle cx="1380" cy="-170" r="500" fill="#174a76" fill-opacity=".11"/>
+<circle cx="60" cy="860" r="360" fill="#168ac5" fill-opacity=".055"/>
+
+<!-- Heading -->
+<text x="66" y="93" fill="#f2f7ff" font-family="DejaVu Sans,sans-serif" font-size="58" font-weight="bold" letter-spacing="-1">JARVIS <tspan fill="#67bfff">/ AIOps</tspan></text>
+<text x="69" y="137" fill="#b5d2e5" font-family="DejaVu Sans,sans-serif" font-size="21">Local AI  •  Observability  •  Engineering Research</text>
+<rect x="1108" y="52" width="428" height="85" rx="17" fill="#10283c" stroke="#337698" stroke-opacity=".75"/>
+<circle cx="1138" cy="80" r="6" fill="#53e4b4"/>
+<text x="1160" y="85" fill="#b7f6df" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="bold">RESEARCH &amp; DEVELOPMENT</text>
+<text x="1137" y="113" fill="#9fc2d7" font-family="DejaVu Sans,sans-serif" font-size="16">Private source  •  Public concept</text>
+
+<text x="69" y="201" fill="#86b4ce" font-family="DejaVu Sans,sans-serif" font-size="17" letter-spacing="2">THREE RESEARCH AREAS</text>
+<line x1="68" y1="219" x2="1532" y2="219" stroke="#80a9c4" stroke-opacity=".28"/>
+
+<!-- first card -->
+<g filter="url(#shadow)">
+<rect x="66" y="251" width="465" height="323" rx="22" fill="url(#card)" stroke="#51b6dc" stroke-opacity=".65" stroke-width="1.6"/>
+<rect x="88" y="278" width="55" height="55" rx="15" fill="#0b3a4d"/>
+<path d="M108 296h16m-16 9h22m-22 9h12" stroke="#62dfe9" stroke-width="4" stroke-linecap="round"/>
+<text x="162" y="297" fill="#75dced" font-family="DejaVu Sans,sans-serif" font-size="14" letter-spacing="1.6">01 · PRESENTATION</text>
+<text x="162" y="330" fill="#f4f9ff" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold">JARVIS interface</text>
+<text x="93" y="375" fill="#b2cee1" font-family="DejaVu Sans,sans-serif" font-size="18">Human-facing interface exploration</text>
+<circle cx="101" cy="419" r="4" fill="#5bd9ea"/><text x="118" y="425" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Conversation and explanation UX</text>
+<circle cx="101" cy="464" r="4" fill="#5bd9ea"/><text x="118" y="470" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Clear source and status labelling</text>
+<circle cx="101" cy="509" r="4" fill="#5bd9ea"/><text x="118" y="515" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Limitations made visible</text>
+</g>
+<!-- second card -->
+<g filter="url(#shadow)">
+<rect x="568" y="251" width="465" height="323" rx="22" fill="url(#card)" stroke="#a581f7" stroke-opacity=".67" stroke-width="1.6"/>
+<rect x="590" y="278" width="55" height="55" rx="15" fill="#312447"/>
+<path d="M603 298c11-16 27-3 20 7m-13 13c-10-6-11-20-3-24m16 18c4 3 7 0 7-4" fill="none" stroke="#c3a4ff" stroke-width="3.5" stroke-linecap="round"/>
+<text x="664" y="297" fill="#c5a5ff" font-family="DejaVu Sans,sans-serif" font-size="14" letter-spacing="1.6">02 · EXPERIMENTS</text>
+<text x="664" y="330" fill="#f4f9ff" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold">Local AI &amp; agents</text>
+<text x="595" y="375" fill="#b2cee1" font-family="DejaVu Sans,sans-serif" font-size="18">Model and workflow investigations</text>
+<circle cx="603" cy="419" r="4" fill="#b799ff"/><text x="620" y="425" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Local LLM benchmarking</text>
+<circle cx="603" cy="464" r="4" fill="#b799ff"/><text x="620" y="470" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Task-oriented agent studies</text>
+<circle cx="603" cy="509" r="4" fill="#b799ff"/><text x="620" y="515" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Repeatable technical validation</text>
+</g>
+<!-- third card -->
+<g filter="url(#shadow)">
+<rect x="1070" y="251" width="465" height="323" rx="22" fill="url(#card)" stroke="#e6bb69" stroke-opacity=".68" stroke-width="1.6"/>
+<rect x="1092" y="278" width="55" height="55" rx="15" fill="#463825"/>
+<path d="M1108 315v-11m10 11v-23m10 23v-16" stroke="#ffd18a" stroke-width="5" stroke-linecap="round"/>
+<text x="1166" y="297" fill="#ffd090" font-family="DejaVu Sans,sans-serif" font-size="14" letter-spacing="1.6">03 · OBSERVABILITY</text>
+<text x="1166" y="330" fill="#f4f9ff" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold">AIOps research</text>
+<text x="1097" y="375" fill="#b2cee1" font-family="DejaVu Sans,sans-serif" font-size="18">Monitoring and diagnostic interfaces</text>
+<circle cx="1105" cy="419" r="4" fill="#ffcb79"/><text x="1122" y="425" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Fresh / stale / missing data</text>
+<circle cx="1105" cy="464" r="4" fill="#ffcb79"/><text x="1122" y="470" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Evidence-based diagnostics</text>
+<circle cx="1105" cy="509" r="4" fill="#ffcb79"/><text x="1122" y="515" fill="#e0edf6" font-family="DejaVu Sans,sans-serif" font-size="18">Synthetic UI demonstrations</text>
+</g>
+
+<!-- Conceptual research relation -->
+<path d="M531 402h37M1033 402h37" fill="none" stroke="#83b5d0" stroke-width="2" stroke-dasharray="6 9" stroke-opacity=".65"/>
+<text x="800" y="602" text-anchor="middle" fill="#91b6cb" font-family="DejaVu Sans,sans-serif" font-size="15" letter-spacing="1.1">RELATED RESEARCH AREAS · NOT A LIVE COMPONENT CONNECTION MAP</text>
+
+<!-- Security / approval principle -->
+<rect x="66" y="635" width="1469" height="129" rx="23" fill="#0f2638" stroke="#66bdbd" stroke-opacity=".65" stroke-width="1.5"/>
+<rect x="91" y="663" width="55" height="64" rx="16" fill="#174044"/>
+<path d="M119 673l17 8v13c0 11-7 18-17 24-10-6-17-13-17-24v-13z" fill="none" stroke="#75e5cd" stroke-width="3"/>
+<path d="M111 696l6 6 12-13" fill="none" stroke="#75e5cd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="166" y="680" fill="#92efd5" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="bold" letter-spacing="1">DESIGN PRINCIPLE · SEPARATE AUTHORIZATION</text>
+<text x="166" y="711" fill="#ebf7ff" font-family="DejaVu Sans,sans-serif" font-size="20">Privileged actions require externally enforced policy and explicit human authority.</text>
+<text x="166" y="740" fill="#9fbbcf" font-family="DejaVu Sans,sans-serif" font-size="17">This illustrates a design boundary; it does not certify a deployed control.</text>
+
+<!-- footer -->
+<line x1="67" y1="791" x2="1535" y2="791" stroke="#80a9c4" stroke-opacity=".25"/>
+<text x="69" y="826" fill="#d1e5f3" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="bold">PERSONAL ENGINEERING SHOWCASE</text>
+<text x="1533" y="826" text-anchor="end" fill="#b9d3e6" font-family="DejaVu Sans,sans-serif" font-size="16">BRMff · 2026</text>
+<text x="69" y="858" fill="#9ebccf" font-family="DejaVu Sans,sans-serif" font-size="16">Conceptual diagram only. No real telemetry, private topology, credentials, or production readiness implied.</text>
+</svg>
